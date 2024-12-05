@@ -23,4 +23,5 @@ dependencies:
         - pytest
         - onnxruntime==1.18
         - netron
+        - ipywidgets
         #- git+https://github.com/maltanar/pyverilator.git
