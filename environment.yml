@@ -1,0 +1,27 @@
+name: torch_resnet
+
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  #- onnx=1.16.0
+  - pip
+  - pip:
+        - torch
+        - torchvision
+        - scikit-learn
+        - numpy
+        - matplotlib
+        - h5py
+        - torchsummary
+        - torchaudio
+        - torchinfo
+        - brevitas
+        - brevitas[vision]
+        - onnx==1.16.0
+        - qonnx
+        - onnxoptimizer
+        - pytest
+        - onnxruntime==1.18
+        - netron
+        #- git+https://github.com/maltanar/pyverilator.git
